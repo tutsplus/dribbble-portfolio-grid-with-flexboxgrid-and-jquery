@@ -1,0 +1,32 @@
+
+body {
+	font-family: 'Maven Pro', sans-serif;
+	background-color: #f1faff;
+}
+h1 {
+	font-weight: 400;
+}
+*[class^=column] {
+	/*max-height: 100px;*/
+	overflow: hidden;
+	margin-bottom: 12px;
+}
+*[class^=column] img {
+	width: 100%;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 100px;
+}
+
+a {
+	display: block;
+	opacity: 0.9;
+}
+
+a:hover {
+	opacity: 1;
+}
